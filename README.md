@@ -15,7 +15,10 @@ La relevancia de este proyecto radica en la necesidad de centralizar la informac
 servicio de buses en una única plataforma digital, considerando que actualmente la empresa 
 no cuenta con una plataforma web oficial, lo que dificulta el acceso a esta información por 
 parte de los usuarios. 
-Para su desarrollo, se utilizarán tecnologías como *HTML, CSS, JavaScript, Python y SQLite*.
+### Teconologias que se usaran
+|:---:|:---:|:---:|
+|HTML|CCS|JAVASCRIPT|
+|Python🐍|SQLite|VSC|
 
 ## Objetivo: 
 Buscamos desarrollar un portal de información, para la empresa de buses Talmocur, donde 
@@ -37,5 +40,8 @@ promoviendo el trabajo colaborativo y la distribución eficiente de responsabili
 
 ## Mapa Conceptual: 
 [Mapa conceptual](https://drive.google.com/file/d/1Pm5_oKX6ITMBmmuEn2FeNMSooOLuC1cy/view?usp=sharing)
+
+
+
 
 
