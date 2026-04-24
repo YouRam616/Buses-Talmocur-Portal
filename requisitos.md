@@ -1,0 +1,17 @@
+#**Requisitos del sistema**
+
+##Requisitos Funcionales
+|ID|Descripcion|Priodidad|Criterios de aceptacion|
+|:---|:-------:|:-------:|:---------------------:|
+|REQ-F01|Consulta de horarios y tarifas: El sistema debe permitir a cualquier usuario buscar viajes disponibles indicando origen, destino y fecha, mostrando la hora de salida, llegada y el precio del pasaje.| Alta| Si el usuario ingresa un origen, destino y fecha válidos donde sí hay recorridos programados, el sistema muestra una lista con la hora de salida, hora de llegada y precio de cada bus.|
+|REQ-F02| Reserva y compra de pasajes: El sistema debepermitir a los usuarios registrados seleccionar un viaje, elegir su asiento y completar el proceso para asegurar su pasaje.|Alta| Un usuario registrado puede seleccionar un viaje, elegir un asiento que aparezca como "disponible", y avanzar hasta la pantalla de confirmación/pago.| 
+|REQ-F03| Gestión de rutas, tarifas y horarios: El sistema debe proveer un panel donde el administrador pueda crear, modificar o eliminar la información de los viajes, horarios y precios.| Alta| Cuando el administrador realice algún cambio en la tarifa de un viaje, luego de guardar el cambio se verá reflejado en el sistema. Siendo visible para cualquier usuario que busque ese viaje.|
+|REQ-F04| Inicio de Sesión y Control de Acceso: El sistema debe identificar a los usuarios mediante credenciales. Debe distinguir entre el rol "Cliente" y el rol "Administrador".|Alta| Cuando el administrador inicie sesión con sus credenciales correctas, será redirigido al panel de administrador. Por el contrario, si un usuario ingresa con sus credenciales se redirigirá al portal de buses siempre y cuando esté registrado.|
+|REQ-F05|  Visualización de beneficios y descuentos: El sistema debe contar con una sección visible donde se detallen los convenios, descuentos y beneficios vigentes ofrecidos por la empresa de buses| Baja| Durante el proceso de compra, el sistema muestra al usuario si su compra es apta para algún descuento vigente. Los usuarios pueden revisar sus beneficios y convenios en el menú principal|
+
+##Requisitos No funcionales
+|ID|Descripcion|Priodidad|Criterios de aceptacion|
+|:---|:-------:|:-------:|:---------------------:|
+|REQ-NF01| Seguridad de Datos y Contraseñas: El sistema debe proteger la información de los usuarios garantizando que ninguna contraseña se almacene en texto plano en la base de datos.| Alta| Al crear un usuario y revisar sus datos en la base de datos, estos están cifrados.|
+|REQ-NF02| Accesibilidad Visual y Contraste: La interfaz gráfica debe utilizar una paleta de colores inclusiva, asegurando legibilidad y evitando combinaciones que dificulten la lectura para personas con daltonismo.| Media| Al pasar las vistas principales de la web por una herramienta de evaluación de accesibilidad, la herramienta no arroja valores críticos con respecto a los colores, contraste, tamaño de letra, etc.| 
+|REQ-NF03| Idioma Exclusivo en Español: Toda la interfaz del sistema, incluyendo menús, botones, mensajes de error y notificaciones, debe estar redactada de forma nativa y exclusiva en idioma español.| Media| Tanto usuarios como administrador pueden ver todos los botones, menús, títulos y descripciones en español.|

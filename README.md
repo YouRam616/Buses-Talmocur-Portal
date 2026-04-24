@@ -1,5 +1,5 @@
 # Buses-Talmocur-Portal
-Proyecto **METODOLOGIAS DE DESARROLLO Y PLANIFICACION DE PROYECTO DE SOFTWARE*, creación de portal de información y compra para redes de buses Talmocur
+Proyecto **METODOLOGIAS DE DESARROLLO Y PLANIFICACION DE PROYECTO DE SOFTWARE**, creación de portal de información y compra para redes de buses Talmocur
 
 ## Descripción del Proyecto: 
 El proyecto tiene como propósito desarrollar una aplicación web que proporcione 
